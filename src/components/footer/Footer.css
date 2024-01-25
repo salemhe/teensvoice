@@ -1,0 +1,70 @@
+.footer {
+    padding: 4rem 6rem;
+    background-color: black;
+    color: white;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top i {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+.top i:hover {
+    color: blue;
+}
+
+.buttom {
+    padding-top: 2rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.buttom div {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttom h4 {
+    font-size: 1.4rem;
+    padding: 1rem 0 .8rem 0;
+}
+
+.buttom a {
+    text-decoration: none;
+    color: grey;
+    padding-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.buttom a:hover {
+    color: blue;
+}
+
+
+@media screen and (max-width: 850px) {
+    .footer {
+        padding: 4rem 2rem;
+    }
+
+    .footer i {
+        margin: 1rem 1rem 0 0;
+    }
+
+
+    .buttom div {
+        width: 50%;
+    }
+}
+
+
