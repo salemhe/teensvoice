@@ -5,6 +5,7 @@ import Pro1 from "../../media/gc.jpg";
 import Pro2 from "../../media/100.jpg";
 import Pro3 from "../../media/creative.jpg";
 import Pro4 from "../../media/ntyfw.jpg";
+import Pro5 from "../../media/35.jpg";
 
 
 const Programsbox = () => {
@@ -53,9 +54,9 @@ const Programsbox = () => {
           />
 
           <ProgramData
-            image={Pro3}
+            image={Pro5}
             heading="Strickly for The Boys"
-            text="MENTALITY guides male teens in transitioning responsibly from boys to men. Through our Men~tality programs and weekly sessions at Teens Voice Hub in Lagos, we empower them for strategic societal roles."
+            text="Strickly for The Boys guides male teens in transitioning responsibly from boys to men. Through our Men~tality programs and weekly sessions at Teens Voice Hub in Lagos, we empower them for strategic societal roles."
           />
         </div>
       </div>

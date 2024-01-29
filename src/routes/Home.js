@@ -8,6 +8,7 @@ import Gallery from "../components/gallery/Gallery";
 import Programsbox from "../components/programsbox/Programsbox";
 import Destination from "../components/destination/Destination";
 import Offer from "../components/offer/Offer";
+import ContactForm from "../components/contactform/ContactFrom";
 
 
 
@@ -30,6 +31,7 @@ const Home = () => {
 
         <Gallery />
         <Programsbox />
+        <ContactForm />
         <Footer />
       </div>
     );

@@ -5,7 +5,7 @@ const Join = () => {
     return (
       <div className="body-container">
         <div className="container">
-          <header>Sign Up</header>
+          <header>Join Our Community</header>
 
           <form
             // action="https://formspree.io/f/mleqgbzv"

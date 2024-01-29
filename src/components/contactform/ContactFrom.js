@@ -1,4 +1,3 @@
-
 import React from "react";
 import "./ContactForm.css";
 
@@ -30,7 +29,7 @@ const ContactForm = () => {
         </div>
 
         <div className="map">
-          <iframe
+           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.327414045559!2d3.3672845!3d6.606174900000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b924d99012707%3A0x8ff054e8edc393d3!2sChrist%20Embassy%20LCA%20Car%20Park!5e0!3m2!1sen!2sng!4v1705794910458!5m2!1sen!2sng"
             width="600"
             height="450"
@@ -39,10 +38,10 @@ const ContactForm = () => {
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
-        </div>
+         </div> 
       </div>
     </div>
   );
 };
 
-export default ContactForm;
+export default ContactForm;
