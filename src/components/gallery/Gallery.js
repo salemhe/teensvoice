@@ -48,7 +48,7 @@ const Gallery = () => {
     <div>
       <h1>Our Gallery</h1>
       <div className={model ? "model open" : "model"}>
-        <img src={tempimgSrc} alt="Image" />
+        <img src={tempimgSrc} alt="model_Image" />
         <CloseIcon
           onClick={() => setModel(false)}
           style={{ fontSize: "2em", cursor: "pointer" }} // Adjust the fontSize as needed

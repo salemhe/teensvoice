@@ -5,7 +5,7 @@ const ProgramData = (props) => {
   return (
     <div className="p__card">
       <div className="p__image">
-        <img src={props.image} alt="image" />
+        <img src={props.image} alt="p_image" />
       </div>
 
       <h4>{props.heading}</h4>
