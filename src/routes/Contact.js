@@ -4,6 +4,7 @@ import Hero from "../components/hero/Hero";
 import ContactImg from "../media/100.jpg";
 import Footer from "../components/footer/Footer";
 import ContactForm from "../components/contactform/ContactFrom";
+import Maincontact from "../components/maincontact/Maincontact";
 
 
 
@@ -18,7 +19,8 @@ const Contact = () => {
         
 
 
-        <ContactForm />
+        {/* <ContactForm /> */}
+        <Maincontact />
         <Footer />
       </div>
     );

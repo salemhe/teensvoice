@@ -6,6 +6,8 @@ import Pro2 from "../../media/100.jpg";
 import Pro3 from "../../media/creative.jpg";
 import Pro4 from "../../media/ntyfw.jpg";
 import Pro5 from "../../media/35.jpg";
+import Pro6 from "../../media/code.jpg";
+import Pro7 from "../../media/creatives.jpg";
 
 
 const Programsbox = () => {
@@ -24,7 +26,7 @@ const Programsbox = () => {
 
         <div className="programcard">
           <ProgramData
-            image={Pro3}
+            image={Pro6}
             heading="Teens Voice C.O.D.E:"
             text="Teens Voice Class of Distinction and Excellence is an initiative focused on academic excellence in various subject areas and personal effectiveness. "
           />
@@ -42,7 +44,7 @@ const Programsbox = () => {
           />
 
           <ProgramData
-            image={Pro2}
+            image={Pro7}
             heading="Teens Voice Creatives"
             text="An initiative, specially designed for all kinds of teenage creatives and talents ranging from Public Speaking, Presenting, Dance, Singing, Drama and Movie Production, Graphics designs, Arts, Painting and Crafts. "
           />

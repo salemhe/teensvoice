@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { MenuItems } from "../MenuItems";
 import "./Navbar.css";
 
+import logoImage from "../../media/mainlogo.png";
 
 
 const Navbar = () => {
@@ -16,7 +17,13 @@ const Navbar = () => {
 
   return (
     <nav className="nav__items">
-      <h1 className="nav__logo">TeensVoice</h1>
+      <h1 className="nav__logo">
+        <img
+          src={logoImage}
+          alt="Logo"
+          style={{ width: "170px", height: "100px", marginTop: '1px' }} 
+          />
+      </h1>
 
       <div className="menu__icons" onClick={handleClick}>
         <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>

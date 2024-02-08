@@ -27,7 +27,7 @@ export const MenuItems = [
     title: "Volunteer",
     url: "/volunteer",
     cName: "nav__links",
-    icon: "fa-regular fa-calendar",
+    icon: "fa-regular fa-address-book",
   },
   {
     title: "Register",

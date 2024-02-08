@@ -1,25 +1,16 @@
 import React, { useState, useEffect } from "react";
+import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import axios from "../axios";
-import "./ContactForm.css";
+import "./Maincontact.css";
 
-const ContactForm = () => {
+const Maincontact = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
   });
-
   const [mapSrc, setMapSrc] = useState("");
   const navigate = useNavigate();
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-  };
 
   useEffect(() => {
     const fetchData = async () => {
@@ -36,6 +27,14 @@ const ContactForm = () => {
     fetchData();
   }, []);
 
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -49,14 +48,13 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="contactform">
-      <div className="contact__container">
-        <div className="form__container">
-          <h3>Send Us a Message</h3>
+    <div className="main">
+      <div className="main__container">
+        <div className="form__input-box">
           <form
-            action="https://formspree.io/f/mleqgbzv" 
+            action="https://formspree.io/f/mleqgbzv"
             method="POST"
-            // onSubmit={handleSubmit}
+            onSubmit={handleSubmit}
             className="contact__form"
           >
             <input
@@ -88,8 +86,24 @@ const ContactForm = () => {
           </form>
         </div>
       </div>
+
+      <div className="form__text-box">
+        <p>Send us a mail:</p>
+        <i
+          className="fa-solid fa-envelope"
+          style={{ color: "lightblue" }}
+        ></i>{" "}
+        <a href="mailto:info@teensvoice.org" style={{ color: "black" }}>
+          info@teensvoice.org
+        </a>{" "}
+        <br /> <br />
+        <p>Click the link below to call us:</p>
+        <a href="tel:+2348066400348" style={{ color: "black" }}>
+          Call Now: +234 806 640 0348
+        </a>
+      </div>
     </div>
   );
 };
 
-export default ContactForm;
+export default Maincontact;

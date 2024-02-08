@@ -1,5 +1,6 @@
 .contactform {
     width: 100%;
+    padding: 40px;
     height: 125vh;
     display: flex;
     flex-direction: column;
@@ -12,14 +13,12 @@
 .contact__container {
     max-width: 960px;
     margin: auto;
+    padding: 40px;
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
     background: whitesmoke;
     box-shadow: 0 0 1rem hsla(0 0 0 / 16%);
-     color: #2a2a2a2a;
-
+    color: #2a2a2a2a;
     border-radius: 0.5rem;
     overflow: hidden;
 }
@@ -67,7 +66,7 @@
 }
 
 .contact_form .send_button:hover {
-    background-color: black;
+    background-color: #03a9f5;
     color: white;
 }
 
@@ -97,5 +96,8 @@
 @media (max-width: 850px) {
     .contact__container {
         grid-template-columns: 1fr;
+        justify-content: center;
     }
 }
+
+

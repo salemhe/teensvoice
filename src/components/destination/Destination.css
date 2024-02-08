@@ -47,7 +47,7 @@
 .destination__icons li {
   gap: 3rem;
   font-size: 1.5rem;
-  color: blue;
+  color: #04bade;
 }
 
 .destination__icons span {
@@ -61,7 +61,7 @@
 }
 
 .btn {
-    color: blue;
+    color: #ff8b3d;
     text-decoration: none;
     font-weight: 400;
     font-style: italic;

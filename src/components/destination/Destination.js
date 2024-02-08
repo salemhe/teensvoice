@@ -23,7 +23,6 @@ const Destination = () => {
             all the noise in their environment, in better hopes of transforming
             their world through the investment of the right materials in their
             minds. <br /> <br />
-            Lorem ipsum dolor sit amet consectetur:
           </p>{" "}
           <br />
           <ul className="destination__icons">

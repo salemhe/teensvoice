@@ -49,6 +49,13 @@ import Programs from "./routes/Programs";
 import Signup from "./routes/Signup";
 import Blog from "./routes/Blog";
 import Volonteer from "./routes/Volonteer";
+import Drug from "./routes/Drug";
+import Crime from "./routes/Crime";
+import Firstlove from "./routes/Firstlove";
+import Private from "./routes/Private";
+
+
+
 
 function App() {
   return (
@@ -61,6 +68,10 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/volunteer" element={<Volonteer />} />
+        <Route path="/drugabuse" element={<Drug />} />
+        <Route path="/cybercrime" element={<Crime />} />
+        <Route path="/firstlove" element={<Firstlove />} />
+        <Route path="/privacypolicy" element={<Private />} />
       </Routes>
     </div>
   );

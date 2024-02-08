@@ -49,12 +49,17 @@ const Participate = () => {
             <br />
             <h2>📆 How to Get Involved:</h2>
             <p>
-              Signing up is easy! <br />
-              Click on the link below to fill out our quick application form.
+              Signing up is easy! <br /> <br />
+              Click on the link below to fill out our quick application form.👇🏼{" "}
+              <br /> <br />
+              <a href="https://www.kingsforms.online/form/respond/LWF-RG943121823743">
+                <i>Volunteer !</i>
+              </a>{" "}
+              <br /> <br />
               Join us in transforming ideas into action and be a catalyst for
               positive change!
             </p>{" "}
-            <a href="">Volunteer</a> <br />
+            <br />
             <br />
             <p>
               🚀 Let's make a difference together! Join us on this incredible

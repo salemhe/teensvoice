@@ -10,12 +10,12 @@ const Footer = () => {
           <p>Let Your Voice Be Heard</p>
         </div>
         <div>
-          <a href="/">
+          <a href="https://www.facebook.com/profile.php?id=100068557883997&mibextid=ZbWKwL">
             <i className="fa-brands fa-facebook"></i>
           </a>
 
           <a
-            href="https://www.instagram.com/teensvoiceacademy?igsh=MWVkbWIzYWQ3cXRnNA=="
+            href="https://www.instagram.com/theofficialteensvoice/?hl=en"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -43,14 +43,15 @@ const Footer = () => {
           <a href="/volunteer">Volunteer</a>
           <a href="/programs">Programs</a>
           <a href="/signup">Join our Community</a>
-          <a herf="/">Sponsorship</a>
+          {/* <a herf="/">Sponsorship</a> */}
         </div>
 
         <div>
           <h4>Connect with us</h4>
-          <a href="/">Telegram</a>
-          <a href="whatsapp://send?phone=08066400348">Whats'app</a>
-          <a href="mailto:teensvoice@gmail.com">Email</a>
+          <a href="/contact">Contact Page</a>
+          <a href="https://t.me/+GCvTm1rCWrswYTI0">Telegram</a>
+          <a href="https://wa.me/2348066400348">WhatsApp</a>
+          <a href="mailto:teensvoiceacademy@gmail.com">Email</a>
         </div>
 
         {/* <div>
@@ -63,7 +64,7 @@ const Footer = () => {
 
         <div>
           <h4></h4>
-          <a href="/">Privacy Policy</a>
+          <a href="/privacypolicy">Privacy Policy</a>
         </div>
       </div>
     </div>

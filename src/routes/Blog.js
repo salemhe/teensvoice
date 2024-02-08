@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/navbar/Navbar";
 import Hero from "../components/hero/Hero";
-import BlogImg from "../media/50.jpg";
+import BlogImg from "../media/blog.jpg";
 import Footer from "../components/footer/Footer";
 import Blogpost from "../components/blogpost/Blogpost";
 
@@ -12,7 +12,7 @@ const Blog = () => {
         <Hero
           cName="hero-mid"
           heroImg={BlogImg}
-          title="Blog"
+          // title="Blog"
           btnClass="hide"
          />
             

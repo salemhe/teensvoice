@@ -1,0 +1,12 @@
+.policy__container {
+    margin: 4rem 4rem;
+    padding: 20px;
+    justify-content: center;
+    text-align: left;
+    /* border: 1px solid black; */
+}
+
+.policy__container p {
+    margin-bottom: 20px;
+}
+
