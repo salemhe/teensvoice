@@ -1,7 +1,10 @@
 .contactform {
     width: 100%;
     padding: 40px;
-    height: 125vh;
+    /* Added padding-top to change view issue  */
+    padding-top: 0;
+    /* changed height from 120vh to 90vh to  make it look better on mobile. */
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

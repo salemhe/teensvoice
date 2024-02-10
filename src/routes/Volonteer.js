@@ -4,12 +4,15 @@ import Hero from "../components/hero/Hero";
 import VolunteerImg from "../media/vol.jpg";
 import Footer from "../components/footer/Footer";
 import Participate from "../components/Participate/Participate";
+// imported new component "mainContainer.css" to help resolve page responsiveness issue
+import '../components/mainContainer/mainContainer.css';
 
 
 
 const Volonteer = () => {
     return (
-      <div>
+      // added class mainContainer
+      <div className="mainContainer">
         <Navbar />
             <Hero
                 cName="hero-mid"
