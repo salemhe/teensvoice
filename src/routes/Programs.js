@@ -5,11 +5,14 @@ import Programsimg from "../media/77.jpg";
 import Footer from "../components/footer/Footer";
 import Programsbox from "../components/programsbox/Programsbox";
 import Activity from "../components/activity/Activity";
+// imported new component "mainContainer.css" to help resolve page responsiveness issue
+import '../components/mainContainer/mainContainer.css';
 
 
 const Programs = () => {
   return (
-    <div>
+    // added class mainContainer
+    <div className="mainContainer">
       <Navbar />
       <Hero cName="hero-mid"
         heroImg={Programsimg}

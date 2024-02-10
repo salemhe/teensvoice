@@ -5,9 +5,12 @@ import img1 from "../../media/firstlovepro.png";
 const Activity = () => {
     return (
       <div className="activity__container">
-        <div className="activity__image">
-          <img src={img1} alt="Banner" />
+        <div className="activity__title">
+          <div className="activity__image">
+            <img src={img1} alt="Banner" />
+          </div>
         </div>
+
         <div className="activity__text">
           <h3>Upcoming Program ALERT !!</h3>
           <h4>MY FIRST LOVE 💕</h4>

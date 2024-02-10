@@ -10,11 +10,14 @@ import Destination from "../components/destination/Destination";
 import ContactForm from "../components/contactform/ContactFrom";
 import Newstricker from "../components/newstricker/Newstricker";
 import Popup from "../components/popup/Popup";
+// imported new component "mainContainer.css" to help resolve page responsiveness issue
+import '../components/mainContainer/mainContainer.css';
 
 
 const Home = () => {
   return (
-    <div>
+    // added class mainContainer
+    <div className="mainContainer">
       <Navbar />
       {/* <Popup /> */}
       <Hero
