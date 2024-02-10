@@ -10,6 +10,9 @@ const Footer = () => {
           <p>Let Your Voice Be Heard</p>
         </div>
         <div>
+          <a href="https://www.kingsch.at/p/cHlYQXN">
+            <i class="fa-solid fa-crown"></i>
+          </a>
           <a href="https://www.facebook.com/profile.php?id=100068557883997&mibextid=ZbWKwL">
             <i className="fa-brands fa-facebook"></i>
           </a>
@@ -63,8 +66,10 @@ const Footer = () => {
         </div> */}
 
         <div>
-          <h4></h4>
+          <h4>Policy</h4>
           <a href="/privacypolicy">Privacy Policy</a>
+          <a href="/Volunteerpolicy">Volunteer Policy</a>
+          <a href="/">PastorChris Good-deeds</a>
         </div>
       </div>
     </div>

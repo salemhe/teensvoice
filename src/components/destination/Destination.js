@@ -15,14 +15,20 @@ const Destination = () => {
         <br />
         <div className="destination__text">
           <h2>To Give a Voice to All Teenagers and Youth</h2>
-          <span className="mission">Our Mission</span> <br /> <br />
+          <span className="mission">Our Story</span> <br /> <br />
           <p>
-            Teens Voice is a platform created to give expression to their
-            'unique' voice and for the empowerment and transformation of young
-            people. A safe haven where teenagers get to find their voice amidst
-            all the noise in their environment, in better hopes of transforming
-            their world through the investment of the right materials in their
-            minds. <br /> <br />
+            Teens Voice was inspired by the Rhapsody of Realities TeeVo, a
+            devotional for teenagers authored by the Founder of the Chris
+            Oyakhilome Foundation. <br />
+          </p>{" "}
+          <br />
+          <p>
+            Since inception in June 2022 during the inaugural Teens Voice
+            Conference at Oregun Ikeja, attended by students from 38 schools,
+            teachers, officials from various educational districts, and
+            representatives from the Lagos State Ministry of Education
+            co-curricular department, our community has grown significantly to
+            include over 20,000 young adults.
           </p>{" "}
           <br />
           <ul className="destination__icons">
@@ -32,7 +38,11 @@ const Destination = () => {
             </li>
             <li>
               <i className="fa-solid fa-square-check"></i>
-              <span>Skill Development Programs</span>
+              <span>Skill Acquisition Programs</span>
+            </li>
+            <li>
+              <i className="fa-solid fa-square-check"></i>
+              <span>Talent Management</span>
             </li>
             <li>
               <i className="fa-solid fa-square-check"></i>

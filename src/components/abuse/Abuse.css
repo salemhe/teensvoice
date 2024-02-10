@@ -16,7 +16,7 @@
     padding: 20px;
     max-width: 65%;
     text-align: left;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
 }
 
 .box__one h2 {
@@ -34,7 +34,7 @@
     max-width: 25%;
     border: 3px solid black;
     height: 40vh;
-    background: whitesmoke;
+    /* background: whitesmoke; */
     padding: 7px;
     border-radius: 10px;
 }

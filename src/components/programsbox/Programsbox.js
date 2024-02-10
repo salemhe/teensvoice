@@ -15,13 +15,13 @@ const Programsbox = () => {
       <div className="programbox">
         <h1>Our Programs</h1>
         <p>
-          Through the academy young people are presented with opportunities to
-          learn pertinent life-skills, leadership skills, entrepreneurial skills
-          and lots more. The academy seeks to raise independent young people
-          capable of taking initiative, birthing innovations and providing
-          solutions to the current and future needs in Africa. The academy runs
-          a variety of thematic programs aimed at empowering teenagers; these
-          include:
+          Teens Voice provides young individuals with opportunities to acquire
+          essential life skills, leadership abilities, entrepreneurial acumen,
+          and much more. Our goal is to cultivate self-reliant youth who can
+          initiate change, innovate, and address the evolving challenges of
+          Africa. Offering a range of thematic programs, which aims at
+          empowering teenagers by equipping them with the necessary tools for
+          success.
         </p>
 
         <div className="programcard">
@@ -52,13 +52,13 @@ const Programsbox = () => {
           <ProgramData
             image={Pro4}
             heading="Not Too Young For Wealth"
-            text="NTYFW empowers teens with real-world financial skills. Through in-class sessions, movies, and assignments led by successful entrepreneurs, we cover wealth creation and sustainability. Excursions and internships in various sectors enhance practical learning."
+            text="NTYFW provides teens with practical financial education led by successful entrepreneurs. Through classes, movies, assignments, excursions, and internships, we cover wealth creation and sustainability."
           />
 
           <ProgramData
             image={Pro5}
             heading="Strickly for The Boys"
-            text="Strickly for The Boys guides male teens in transitioning responsibly from boys to men. Through our Men~tality programs and weekly sessions at Teens Voice Hub in Lagos, we empower them for strategic societal roles."
+            text="'Strictly for The Boys' supports male teenagers in their journey towards responsible manhood. Our programs and weekly sessions at the Teens Voice Hub empower them for important societal roles with strategic guidance and mentorship."
           />
         </div>
       </div>

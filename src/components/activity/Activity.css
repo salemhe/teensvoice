@@ -50,6 +50,26 @@
   }
 }
 
+@media (min-width: 601px) and (max-width: 686px) {
+  .activity__container {
+    flex-direction: row; 
+  }
+
+  .activity__image {
+    width: 100%;
+  }
+
+  .activity__image img {
+    width: 100%;
+  }
+
+  .activity__text {
+    max-width: 50%; /* Take up the full width */
+  }
+
+}
+
+
 
 /* Media Query for small screens (up to 600px) */
 @media (max-width: 600px) {
@@ -58,11 +78,11 @@
   }
 
   .activity__image {
-    width: 100%; /* Take up the full width */
+    width: 100%;     /*Take up the full width*/
   }
 
   .activity__image img {
-    width: auto; /* Allow the image to take its natural height */
+    width: 100%; /* Allow the image to take its natural height */
   }
 
   .activity__text {

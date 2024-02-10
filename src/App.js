@@ -53,6 +53,7 @@ import Drug from "./routes/Drug";
 import Crime from "./routes/Crime";
 import Firstlove from "./routes/Firstlove";
 import Private from "./routes/Private";
+import Vpolicy from "./routes/Vpolicy";
 
 
 
@@ -72,6 +73,7 @@ function App() {
         <Route path="/cybercrime" element={<Crime />} />
         <Route path="/firstlove" element={<Firstlove />} />
         <Route path="/privacypolicy" element={<Private />} />
+        <Route path="/Volunteerpolicy" element={<Vpolicy />} />
       </Routes>
     </div>
   );

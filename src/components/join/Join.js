@@ -142,47 +142,70 @@ const Join = () => {
           <div className="gender-box">
             <h3 className="form-letter">What are your interests?</h3>
             <div className="gender-option">
-              {/* Entrepreneurship */}
+              {/* Films & Creative Arts */}
               <div className="gender">
                 <input
                   type="radio"
-                  id="check-entrepreneurship"
+                  id="check-films"
                   name="interests"
-                  value="entrepreneurship"
-                  checked={formData.interests === "entrepreneurship"}
+                  value="films/creative-arts"
+                  checked={formData.interests === "films/creative-arts"}
                   onChange={() =>
-                    setFormData({ ...formData, interests: "entrepreneurship" })
+                    setFormData({
+                      ...formData,
+                      interests: "films/creative-arts",
+                    })
                   }
                 />
-                <label htmlFor="check-entrepreneurship">Entrepreneurship</label>
+                <label htmlFor="check-films">Films & Creative Arts</label>
               </div>
 
-              {/* Entertainment */}
+              {/* Innovations & Tech */}
               <div className="gender">
                 <input
                   type="radio"
-                  id="check-entertainment"
+                  id="check-tech"
                   name="interests"
-                  value="entertainment"
-                  checked={formData.interests === "entertainment"}
+                  value="innovations-tech"
+                  checked={formData.interests === "innovations-tech"}
                   onChange={() =>
-                    setFormData({ ...formData, interests: "entertainment" })
+                    setFormData({ ...formData, interests: "innovations-tech" })
                   }
                 />
-                <label htmlFor="check-entertainment">Entertainment</label>
+                <label htmlFor="check-tech">Innovations & Tech</label>
               </div>
 
-              {/* IT */}
+              {/* Designers & Creatives */}
               <div className="gender">
                 <input
                   type="radio"
-                  id="check-it"
+                  id="check-designers"
                   name="interests"
-                  value="IT"
-                  checked={formData.interests === "IT"}
-                  onChange={() => setFormData({ ...formData, interests: "IT" })}
+                  value="designers-creatives"
+                  checked={formData.interests === "designers-creatives"}
+                  onChange={() =>
+                    setFormData({
+                      ...formData,
+                      interests: "designers-creatives",
+                    })
+                  }
                 />
-                <label htmlFor="check-it">IT</label>
+                <label htmlFor="check-designers">Designers & Creatives</label>
+              </div>
+
+              {/* Admin & Copy Writers */}
+              <div className="gender">
+                <input
+                  type="radio"
+                  id="check-admin"
+                  name="interests"
+                  value="admin-copywriters"
+                  checked={formData.interests === "admin-copywriters"}
+                  onChange={() =>
+                    setFormData({ ...formData, interests: "admin-copywriters" })
+                  }
+                />
+                <label htmlFor="check-admin">Admin & Copy Writers</label>
               </div>
             </div>
           </div>

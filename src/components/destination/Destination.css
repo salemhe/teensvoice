@@ -22,11 +22,12 @@
     margin-top: -10%;
 }
 
-.destination__text h2 {
-    padding-bottom: 1rem;
-}
+/* .destination__text .mission {
+    margin-top: 10px;
+} */
 
 .destination__text span {
+    padding-top: 20%;
     padding: 0.5rem 0.5rem;
     white-space: nowrap;
     border-radius: 0.3rem;
@@ -110,10 +111,9 @@
     margin-top: 2.5rem;
     }
 
-    .destination__text {
+    .destination__text  {
         width: 100%;
     }
-
     .destination__img {
         width: 100%;
         margin: 1.8rem 0;

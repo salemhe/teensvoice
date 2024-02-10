@@ -1,11 +1,11 @@
 .programbox {
-    margin: 4rem 6rem;
+    margin: 2rem 2rem;
     color: black;
     margin-bottom: 2rem;
 }
 
 .programbox h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -51,9 +51,16 @@
 
 
 
+
+
 @media screen and (max-width: 850px) {
     .program {
         margin: 4rem 2rem;
+    }
+
+    .programbox p {
+        text-align: left;
+        max-width: 95%;
     }
 
     .programcard {

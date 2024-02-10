@@ -75,7 +75,7 @@ const Blogpost = () => {
             </div>
           </div>
 
-          <div className="blog-box">
+          {/* <div className="blog-box">
             <div className="blog-img">
               <img src={img3} alt="Blog" />
             </div>
@@ -91,7 +91,7 @@ const Blogpost = () => {
               </p>
               <a href="#">Read More</a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     );

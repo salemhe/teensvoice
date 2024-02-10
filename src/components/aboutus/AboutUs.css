@@ -3,7 +3,7 @@
 }
 
 .aboutus h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .about__h {
@@ -26,6 +26,7 @@
     text-align: start;
     font-size: 1.1rem;
     line-height: 1.5rem;
+    margin-bottom: -10%;
 }
 
 .about__text a {

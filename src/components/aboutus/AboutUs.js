@@ -9,22 +9,23 @@ const AboutUs = () => {
   return (
     <div className="aboutus">
       <h1>Teens Voice and You</h1>
-      
+
       <div className="about__h">
         <div className="about__text">
           <h2>Teens Voice and You.</h2>
           <p>
-            Teens Voice is our response to the onslaught on the minds of young
-            people from the media and the circular culture offering transient
-            gratification in the short term but leaves them empty and frustrated
-            in the long term.
-          </p>{" "}
-          <br />
-          <p>
-            Through Teens Voice, young people are educated on the importance of
-            the power of their mind, the value of their unique voice, the
-            quality of their message and how they choose to express it.
+            Our community helps young people explore{" "}
+            <b>
+              the power of their mind, see the value of their unique voice,
+              fine-tune the quality of their message and how they choose to
+              express it.
+            </b>{" "}
+            Going beyond lip service and taking pragmatic actions to reposition
+            yong minds as change agents in their immediate circle and the world
+            at large through their unique ‘voices’ is the
+            {""} <b>CORE </b> of our work.
           </p>
+
           <br />
           <a href="/about">read more</a>
         </div>
