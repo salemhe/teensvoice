@@ -105,14 +105,13 @@
 .contactform {
     width: 100%;
     padding: 40px;
-    height: 90vh;
     /* display: flex;
     flex-direction: column; */
 
     /* Added padding-top to change view issue  */
     padding-top: 0;
-    /* changed height from 120vh to 90vh to  make it look better on mobile. */
-    height: 90vh;
+    /* changed height from 120vh to 70vh to  make it look better on mobile. */
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -207,7 +206,7 @@
 @media (max-width: 850px) {
 
     .contactform {
-        height: 80vh;
+        height: 60vh;
     }
 
     .contact__container {
