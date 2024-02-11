@@ -69,7 +69,7 @@ const Footer = () => {
           <h4>Policy</h4>
           <a href="/privacypolicy">Privacy Policy</a>
           <a href="/Volunteerpolicy">Volunteer Policy</a>
-          <a href="/">PastorChris Good-deeds</a>
+          {/* <a href="/">PastorChris Good-deeds</a> */}
         </div>
       </div>
     </div>

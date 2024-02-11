@@ -14,6 +14,7 @@ import Popup from "../components/popup/Popup";
 import '../components/mainContainer/mainContainer.css';
 
 
+
 const Home = () => {
   return (
     // added class mainContainer

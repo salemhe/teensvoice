@@ -13,6 +13,7 @@
     cursor: pointer;
     padding: 1rem 0.8rem;
     gap: 2.5rem;
+    
 }
 
 .volunteer__box {
@@ -26,6 +27,7 @@
 .volunteer__img img {
     width: 100%; /* Make the image fill the container */
     border-radius: 20px;
+    max-width: 100%;
 }
 
 /* Media query for small and medium screens */
@@ -36,5 +38,22 @@
 
     .volunteer__box {
         width: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container-1 {
+        margin: 4rem 0; /* Adjusted margin to center the content */
+        padding: 0 20px; /* Adjusted padding */
+    }
+
+    .box {
+        flex-direction: column; /* Keep the column layout for smaller screens */
+    }
+
+    .volunteer__img img {
+        width: 100%; /* Make the image fill the container */
+        border-radius: 20px;
+        max-width: 100%;
     }
 }

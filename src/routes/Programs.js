@@ -7,6 +7,7 @@ import Programsbox from "../components/programsbox/Programsbox";
 import Activity from "../components/activity/Activity";
 // imported new component "mainContainer.css" to help resolve page responsiveness issue
 import '../components/mainContainer/mainContainer.css';
+import Launch from "../components/launch/Launch";
 
 
 const Programs = () => {
@@ -18,7 +19,7 @@ const Programs = () => {
         heroImg={Programsimg}
         title="Programs" />
 
-      
+      <Launch />
       <Activity />
       <Programsbox  />
       <Footer />

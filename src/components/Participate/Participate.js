@@ -23,12 +23,37 @@ const Participate = () => {
             interested in education, technology, music, dance or drama, we have
             diverse opportunities that align with your passion. Together, we can
             amplify our impact and create a ripple effect of positive change.
+          </p>{" "}
+          <br />
+          <h2>Volunteer Opportunities</h2> <br />
+          <p>
+            Are you looking for ways to make a meaningful impact in your
+            community? Consider volunteering your time and skills for various
+            initiatives aimed at community development and empowerment. There
+            are diverse opportunities where your contribution can make a
+            significant difference:
+          </p>{" "}
+          <br />
+          <p>1. Organizing Events</p>
+          <p>2. Community Development Projects </p>
+          <p>3. Fundraising</p>
+          <p>4. Vocational Trainings</p>
+          <p>5. Mentoring </p>
+          <p>6. Teaching</p>
+          <p>7. Professional Advice & Consultancy</p>
+          <p>8. Free Professional Services</p>
+          <p>9. Social Media Campaigns </p>
+          <p>10. Networking & Referrals </p>
+          <p>11. Volunteer to Write Blog Posts for Teens Voice </p> <br />
+          <p>
+            By volunteering your time, skills, and passion, you can play a vital
+            role in building stronger, more resilient communities and creating
+            positive change that benefits everyone.
           </p>
         </div>
         <div className="volunteer__img">
           <img src={Pro1} alt="people" />
         </div>
-
         <div className="volunteer__box">
           <h2>💼 What You Can Expect:</h2> <br />
           <p>✔ Weekly Engaging projects that align with your interests.</p>{" "}
@@ -43,7 +68,7 @@ const Participate = () => {
           </p>{" "}
           <br />
           <br />
-          <h2>📆 How to Get Involved:</h2>
+          <h2>📆 How to Get Involved:</h2> <br />
           <p>
             Signing up is easy! <br /> <br />
             Click on the link below to fill out our quick application form.👇🏼{" "}
@@ -53,7 +78,7 @@ const Participate = () => {
             </a>{" "}
             <p>
               (kindly read our{" "}
-              <a href="">
+              <a href="/Volunteerpolicy">
                 {" "}
                 <u>
                   {" "}
@@ -65,7 +90,7 @@ const Participate = () => {
               </a>{" "}
               before you proceed)
             </p>{" "}
-            <br /> <br />
+            <br />
             Join us in transforming ideas into action and be a catalyst for
             positive change!
           </p>{" "}

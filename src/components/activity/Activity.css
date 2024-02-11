@@ -1,6 +1,5 @@
 .activity__container {
     display: flex;
-    /* width: 100%; */
     padding: 20px;
     margin-top: 20px;
     background: white;
@@ -39,7 +38,10 @@
 }
 
 
-@media (max-width: 960px) {
+
+
+/* this media query has to be sorted  */
+/* @media (max-width: 960px) {
     .activity__container {
       flex-direction: column;
       justify-content: center;
@@ -57,54 +59,44 @@
       text-align: center;
       margin-bottom: 10px;
   }
+} */
+  
+
+/* Media queries for tablet and smaller devices */
+@media (max-width: 1024px) {
+    .activity__container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+     .activity__image {
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .activity__image img{
+        width: 100%;
+    }
+
+    .activity__text {
+        max-width: 100%; /* Adjust to 100% width for better readability on small screens */
+    }
 }
 
+/* Media queries for small devices down till 414px */
+@media (max-width: 414px) {
+    .activity__container {
+        padding: 10px; /* Adjust padding for better spacing on smaller screens */
+    }
 
-@media (min-width: 601px) and (max-width: 686px) {
-  .activity__container {
-    flex-direction: row; 
-  }
+    .activity__image {
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
 
-  .activity__image {
-    width: 100%;
-  }
-
-  .activity__image img {
-    width: 100%;
-  }
-
-  .activity__text {
-    max-width: 50%; /* Take up the full width */
-  }
-
+    .activity__image img{
+        width: 100%;
+    }
 }
-
-
-
-/* Media Query for small screens (up to 600px) */
-@media (max-width: 600px) {
-  .activity__container {
-    flex-direction: column; /* Stack the items vertically */
-  }
-
-  .activity__image {
-    width: 100%;     /*Take up the full width*/
-  }
-
-  .activity__image img {
-    width: 100%; /* Allow the image to take its natural height */
-  }
-
-  .activity__text {
-    max-width: 100%; /* Take up the full width */
-  }
-}
-
-@media (max-width:830) {
-
-.activity__image img {
-    width: 200px;
-}
-}
-   
-
