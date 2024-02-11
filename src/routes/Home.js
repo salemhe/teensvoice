@@ -31,7 +31,7 @@ const Home = () => {
         btnClass="show"
       />
 
-      <Newstricker />
+      <Newstricker /> <br />
       <Destination />
       <AboutUs />
 
