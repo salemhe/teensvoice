@@ -15,7 +15,12 @@ const Destination = () => {
         <br />
         <div className="destination__text">
           <h2>To Give a Voice to All Teenagers and Youth</h2>
-          <span className="mission">Our Story</span> <br /> <br />
+          {/* added <br> to create spacing forour story and housed it in h3 tag */}
+          <br></br>
+          <h3>
+            <span className="mission">Our Story</span>
+          </h3>
+          <br></br>
           <p>
             Teens Voice was inspired by the Rhapsody of Realities TeeVo, a
             devotional for teenagers authored by the Founder of the Chris
