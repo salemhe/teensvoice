@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -10,66 +11,66 @@ const Footer = () => {
           <p>Let Your Voice Be Heard</p>
         </div>
         <div>
-          <a href="https://www.kingsch.at/p/cHlYQXN">
+          <Link to="https://www.kingsch.at/p/cHlYQXN">
             <i class="fa-solid fa-crown"></i>
-          </a>
-          <a href="https://www.facebook.com/profile.php?id=100068557883997&mibextid=ZbWKwL">
+          </Link>
+          <Link to="https://www.facebook.com/profile.php?id=100068557883997&mibextid=ZbWKwL">
             <i className="fa-brands fa-facebook"></i>
-          </a>
+          </Link>
 
-          <a
-            href="https://www.instagram.com/theofficialteensvoice/?hl=en"
+          <Link
+            to="https://www.instagram.com/theofficialteensvoice/?hl=en"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fa-brands fa-instagram"></i>
-          </a>
+          </Link>
 
-          <a
-            href="https://youtube.com/@teensvoiceacademy8089?si=T0d2kf3BYA4cnRBJ"
+          <Link
+            to="https://youtube.com/@teensvoiceacademy8089?si=T0d2kf3BYA4cnRBJ"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fa-brands fa-youtube"></i>
-          </a>
+          </Link>
 
-          {/* <a href="/">
+          {/* <Link to="/">
             <i class="fa-brands fa-telegram"></i>
-          </a> */}
+          </Link> */}
         </div>
       </div>
 
       <div className="buttom">
         <div>
           <h4>TeensVoice</h4>
-          <a href="/blog">Blog</a>
-          <a href="/volunteer">Volunteer</a>
-          <a href="/programs">Programs</a>
-          <a href="/signup">Join our Community</a>
-          {/* <a herf="/">Sponsorship</a> */}
+          <Link to="/blog">Blog</Link>
+          <Link to="/volunteer">Volunteer</Link>
+          <Link to="/programs">Programs</Link>
+          <Link to="/signup">Join our Community</Link>
+          {/* <Link herf="/">Sponsorship</Link> */}
         </div>
 
         <div>
           <h4>Connect with us</h4>
-          <a href="/contact">Contact Page</a>
-          <a href="https://t.me/+GCvTm1rCWrswYTI0">Telegram</a>
-          <a href="https://wa.me/2348066400348">WhatsApp</a>
-          <a href="mailto:teensvoiceacademy@gmail.com">Email</a>
+          <Link to="/contact">Contact Page</Link>
+          <Link to="https://t.me/+GCvTm1rCWrswYTI0">Telegram</Link>
+          <Link to="https://wa.me/2348066400348">WhatsApp</Link>
+          <Link to="mailto:teensvoiceacademy@gmail.com">Email</Link>
         </div>
 
         {/* <div>
           <h4>Help</h4>
-          <a href="/">Support</a>
-          <a href="/">Contact</a>
-          <a href="/">Troubleshooting</a>
-          <a href="/">All vesions</a>
+          <Link to="/">Support</Link>
+          <Link to="/">Contact</Link>
+          <Link to="/">Troubleshooting</Link>
+          <Link to="/">All vesions</Link>
         </div> */}
 
         <div>
           <h4>Policy</h4>
-          <a href="/privacypolicy">Privacy Policy</a>
-          <a href="/Volunteerpolicy">Volunteer Policy</a>
-          {/* <a href="/">PastorChris Good-deeds</a> */}
+          <Link to="/privacypolicy">Privacy Policy</Link>
+          <Link to="/Volunteerpolicy">Volunteer Policy</Link>
+          {/* <Link to="/">PastorChris Good-deeds</Link> */}
         </div>
       </div>
     </div>
