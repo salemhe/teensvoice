@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Gallery.css"; 
+import "./Gallery.css";
 import CloseIcon from "@mui/icons-material/Close";
 import Img1 from "../../media/99.jpg";
 import Img2 from "../../media/crowd.jpg";
@@ -34,7 +34,7 @@ const Gallery = () => {
       id: 6,
       imgSrc: Img6,
     },
-//   
+    //
   ];
 
   const [model, setModel] = useState(false);
@@ -45,16 +45,16 @@ const Gallery = () => {
   };
 
   return (
-    <div>
-      <h1>Our Gallery</h1>
+    <div className="head">
+      <h1>Our Gallery</h1> <br />
       <div className={model ? "model open" : "model"}>
         <img src={tempimgSrc} alt="model_Image" />
         <CloseIcon
+          className="close-icon"
           onClick={() => setModel(false)}
-          style={{ fontSize: "2em", cursor: "pointer" }} // Adjust the fontSize as needed
+          style={{ fontSize: "2em", cursor: "pointer" }}
         />
       </div>
-
       <div className="gallery">
         {data.map((item, index) => {
           return (
@@ -77,6 +77,7 @@ const Gallery = () => {
 };
 
 export default Gallery;
+
 
 
 

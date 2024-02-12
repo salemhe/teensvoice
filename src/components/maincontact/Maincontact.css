@@ -1,16 +1,15 @@
 .main {
     margin: 2rem;
     padding: 20px;
-    /* background: grey; */
 }
 
 .main__container {
+    
     max-width: 960px;
     margin: auto;
     padding: 40px;
     width: 100%;
     gap: 1.5rem;
-    /* background: whitesmoke; */
     box-shadow: 0 0 1rem hsla(0 0 0 / 16%);
     color: #2a2a2a2a;
     border-radius: 0.5rem;
@@ -21,15 +20,19 @@
     width: 100%;
 }
 
-
-
 .form__text-box {
     justify-content: center;
     align-items: center;
     width: 100%;
-    /* border: 10px solid black; */
     color: orange;
     margin-top: 20px;
+}
+
+
+@media (max-width: 850px) {
+    .main__container {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
 }
 
 

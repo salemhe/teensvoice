@@ -27,6 +27,9 @@ const Join = () => {
       });
 
       console.log("Form submitted successfully:", response.data);
+
+      // Reload the page after form submission
+      window.location.reload();
     } catch (error) {
       console.error("Error submitting form:", error);
     }

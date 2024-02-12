@@ -21,7 +21,7 @@ const Navbar = () => {
         <img
           src={logoImage}
           alt="Logo"
-          style={{ width: "140px", height: "70px", marginTop: '1px' }} 
+          style={{ width: "140px", height: "70px", marginTop: '1px' }}
           />
       </h1>
 

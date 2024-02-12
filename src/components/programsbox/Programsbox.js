@@ -58,7 +58,7 @@ const Programsbox = () => {
           <ProgramData
             image={Pro5}
             heading="Strickly for The Boys"
-            text="'Strictly for The Boys' supports male teenagers in their journey towards responsible manhood. Our programs and weekly sessions at the Teens Voice Hub empower them for important societal roles with strategic guidance and mentorship."
+            text="'Strickly for The Boys' supports male teenagers in their journey towards responsible manhood. Our programs and weekly sessions at the Teens Voice Hub empower them for important societal roles with strategic guidance and mentorship."
           />
         </div>
       </div>

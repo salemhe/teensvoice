@@ -1,11 +1,7 @@
 .destination {
     margin: 4rem 6rem;
-    margin-top: 15rem;
+    margin-top: 10rem;
 }
-
-/* .aboutus h1 {
-    font-size: 3rem;
-} */
 
 .destination__h {
     display: flex;
@@ -22,9 +18,6 @@
     margin-top: -10%;
 }
 
-/* .destination__text .mission {
-    margin-top: 10px;
-} */
 
 .destination__text span {
     padding-top: 20%;

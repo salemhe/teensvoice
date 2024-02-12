@@ -15,7 +15,7 @@ const Contact = () => {
         <Hero
           cName="hero-mid"
           heroImg={ContactImg}
-          title="Contact" />
+          title="Contact" /> <br />
         
 
 
