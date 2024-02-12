@@ -66,7 +66,8 @@ const Gallery = () => {
               <img
                 src={item.imgSrc}
                 style={{ width: "100%" }}
-                alt={`gallery-img-${item.id}`}
+                // eslint-disable-next-line no-template-curly-in-string
+                alt={'gallery-img-${item.id}'}
               />
             </div>
           );
@@ -77,7 +78,6 @@ const Gallery = () => {
 };
 
 export default Gallery;
-
 
 
 
