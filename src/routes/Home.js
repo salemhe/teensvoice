@@ -27,7 +27,7 @@ const Home = () => {
         title="Welcome to Teens Voice"
         text="Let your voice be heard"
         buttonText="Join The Community"
-        url="/signup"
+        url="https://www.kingsforms.online/teensvoice-community"
         btnClass="show"
       />
 
