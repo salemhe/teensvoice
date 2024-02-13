@@ -1,4 +1,4 @@
-/* .contactform {
+.contactform {
     width: 100%;
     padding: 40px;
     height: 90vh;
@@ -101,6 +101,6 @@
         grid-template-columns: 1fr;
         justify-content: center;
     }
-}
+} 
 
 
