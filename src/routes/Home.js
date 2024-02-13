@@ -25,7 +25,7 @@ const Home = () => {
         cName="hero"
         heroImg={HomeImg}
         title="Welcome to Teens Voice"
-        text="Let your voice be heared"
+        text="Let your voice be heard"
         buttonText="Join The Community"
         url="/signup"
         btnClass="show"
