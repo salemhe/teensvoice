@@ -21,7 +21,7 @@ const AboutUs = () => {
               express it.
             </b>{" "}
             Going beyond lip service and taking pragmatic actions to reposition
-            yong minds as change agents in their immediate circle and the world
+            young minds as change agents in their immediate circle and the world
             at large through their unique ‘voices’ is the
             {""} <b>CORE </b> of our work.
           </p>

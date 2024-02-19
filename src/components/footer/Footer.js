@@ -46,7 +46,7 @@ const Footer = () => {
           <Link to="/blog">Blog</Link>
           <Link to="/volunteer">Volunteer</Link>
           <Link to="/programs">Programs</Link>
-          <Link to="/signup">Join our Community</Link>
+          <Link to="https://www.kingsforms.online/teensvoice-community">Join our Community</Link>
           {/* <Link herf="/">Sponsorship</Link> */}
         </div>
 

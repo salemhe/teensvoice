@@ -46,7 +46,7 @@ const Programsbox = () => {
           <ProgramData
             image={Pro7}
             heading="Teens Voice Creatives"
-            text="An initiative, specially designed for all kinds of teenage creatives and talents ranging from Public Speaking, Presenting, Dance, Singing, Drama and Movie Production, Graphics designs, Arts, Painting and Crafts. "
+            text="An initiative, specially designed for all kinds of teenage creatives and talents ranging from Public Speaking, Presenting, Dancing, Singing, Drama and Movie Production, Graphics designs, Arts, Painting and Crafts. "
           />
 
           <ProgramData
