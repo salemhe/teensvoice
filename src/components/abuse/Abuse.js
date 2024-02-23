@@ -142,7 +142,7 @@ const Abuse = () => {
             </p>{" "}
             <br />
             <button>
-              <a href="/signup">Join our community</a>
+              <a href="https://www.kingsforms.online/teensvoice-community">Join our community</a>
             </button>
             <div className="social__links">
               <a href="https://t.me/+GCvTm1rCWrswYTI0">

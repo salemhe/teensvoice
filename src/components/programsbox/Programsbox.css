@@ -63,8 +63,7 @@
         text-align: left;
         max-width: 95%;
     }
-
-    .programcard {
+    .sdogramcard {
         grid-template-columns: 1fr;
     }
 

@@ -8,6 +8,7 @@ import Pro4 from "../../media/ntyfw.jpg";
 import Pro5 from "../../media/35.jpg";
 import Pro6 from "../../media/code.jpg";
 import Pro7 from "../../media/creatives.jpg";
+import Pro8 from "../../media/firstlovepro.png";
 
 
 const Programsbox = () => {
@@ -58,7 +59,21 @@ const Programsbox = () => {
           <ProgramData
             image={Pro5}
             heading="Strictly for The Boys"
-            text="'Strickly for The Boys' supports male teenagers in their journey towards responsible manhood. Our programs and weekly sessions at the Teens Voice Hub empower them for important societal roles with strategic guidance and mentorship."
+            text="'Strictly for The Boys' ssdw maleddddsd teenagers in their journey towards responsible manhood. Our programs and weekly sessions at the Teens Voice Hub empower them for important societal roles with strategic guidance and mentorship."
+          />
+
+          <ProgramData
+            image={Pro8}
+            heading="MY FIRST LOVE 💕"
+            text={
+              <>
+                "'My First Love' is a movie premiere & concert aimed at deculturing the minds of young people from the stereotypes associated with the February 14th period and equipping them with the right information they require to make wise choices channeled towards living a purposeful life."
+                {/* commented to add read more button */}
+                {/* <br />
+                <a href="your-link-here">Read more</a> */}
+              </>
+            }
+            
           />
         </div>
       </div>

@@ -19,8 +19,8 @@ const Programs = () => {
         heroImg={Programsimg}
         title="Programs" />
 
-      <Launch />
-      <Activity />
+      {/* <Launch /> */}
+      {/* <Activity /> */}
       <Programsbox  />
       <Footer />
     </div>
