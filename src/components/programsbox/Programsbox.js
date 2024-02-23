@@ -70,7 +70,7 @@ const Programsbox = () => {
                 "'My First Love' is a movie premiere & concert aimed at deculturing the minds of young people from the stereotypes associated with the February 14th period and equipping them with the right information they require to make wise choices channeled towards living a purposeful life."
                 {/* commented to add read more button */}
                 {/* <br />
-                <a href="your-link-here">Read more</a> */}
+                <a href="../../routes/Firstlove.js">Read more</a> */}
               </>
             }
             
