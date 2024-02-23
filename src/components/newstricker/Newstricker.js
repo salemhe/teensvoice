@@ -7,13 +7,13 @@ const Newstricker = () => {
       <div className="news-ticker-container">
         <div className="news-ticker">
           <p>
-            UPCOMING PROGRAM !! "My First Love" happening on 14th February 2024! 💕{" "}
+            Welcome To TeensVoice{" "}
             <a
-              href="http://bit.ly/My-first-love"
+              href="https://www.kingsforms.online/teensvoice-community"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Click here to register
+              Click Here To Join Our Community
             </a>
           </p>
         </div>
