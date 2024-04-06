@@ -6,9 +6,9 @@
 }
 
 .fee__container p {
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
 
-.fee__conatiner a {
-    color: orange;
+.fee__container a {
+    color: #ff8b3d;
 }

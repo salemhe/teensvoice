@@ -1,4 +1,5 @@
 import React from 'react'
+import './Fee.css'
 
 const Fee = () => {
   return (
@@ -15,19 +16,25 @@ const Fee = () => {
       <h4>📍 The scholarship includes the following:</h4>
       <p>
         🎓 Full Tuition <br /> 🎓 Accommodation
-      </p>
+          </p>
+          <br />
+
 
       <h4>📍 Scholarship Requirements:</h4>
-      <p>🎓 UTME:</p>
+      <p>
+        {" "}
+        <b>🎓 UTME:</b>
+      </p>
       <p>
         1. The entry requirements shall be at least credit level passes in five
         subjects related to the desired course at the senior secondary
-        certificate examination (SSCE) or its equivalent. <br />
+        certificate examination (SSCE) or its equivalent. <br /> <br />
         2. In addition, an acceptable pass in the unified tertiary matriculation
-        examination (UTME) is required for admission into 100-level. <br />
+        examination (UTME) is required for admission into 100-level. <br /> <br />
         3. Minimum Jamb Score of 200 and above is required even if written in
         2023.
-      </p>
+          </p>
+          <br />
 
       <h4>🎓 Direct Entry:</h4>
 
@@ -37,7 +44,8 @@ const Fee = () => {
         the ‘O’ Level requirement. <br />
         If you meet these requirements and you feel this is for you, then find
         below some other vital information for your consideration.
-      </p>
+          </p>
+          <br />
 
       <h4>ORGANIZATION REQUIREMENTS:</h4>
 
@@ -71,12 +79,12 @@ const Fee = () => {
       <p>
         You're welcome to an opportunity to soar{" "}
         <a href="https://www.kingsforms.online/teensvoicescholarship">
-          Apply Now
+          <b>Apply Now</b>
         </a>{" "}
         to APPLY!
       </p>
 
-      <p>PLEASE NOTE: Application ends 29th April, 2024.</p>
+      <b>PLEASE NOTE: Application ends 29th April, 2024.</b>
     </div>
   );
 }

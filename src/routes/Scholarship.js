@@ -5,7 +5,6 @@ const Scholarship = () => {
   return (
       <div>
           <Fee />
-          <p>hello world</p>
       </div>
   )
 }

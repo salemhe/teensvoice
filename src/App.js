@@ -55,6 +55,8 @@ import Firstlove from "./routes/Firstlove";
 import Private from "./routes/Private";
 import Vpolicy from "./routes/Vpolicy";
 import Thanks from "./routes/ThanksPage";
+import Scholarship from "./routes/Scholarship";
+
 
 
 
@@ -75,7 +77,8 @@ function App() {
         <Route path="/firstlove" element={<Firstlove />} />
         <Route path="/privacypolicy" element={<Private />} />
         <Route path="/Volunteerpolicy" element={<Vpolicy />} />
-        <Route path= "/thanks" element={<Thanks />} />
+        <Route path="/thanks" element={<Thanks />} />
+        <Route path="/scholarship" element={<Scholarship />} />
       </Routes>
     </div>
   );
