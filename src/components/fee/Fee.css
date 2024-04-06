@@ -1,0 +1,14 @@
+.fee__container {
+    margin: 2rem 2rem;
+    padding: 20px;
+    justify-content: center;
+    text-align: left;
+}
+
+.fee__container p {
+    margin-bottom: 12px;
+}
+
+.fee__conatiner a {
+    color: orange;
+}

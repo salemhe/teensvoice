@@ -46,8 +46,10 @@ const Footer = () => {
           <Link to="/blog">Blog</Link>
           <Link to="/volunteer">Volunteer</Link>
           <Link to="/programs">Programs</Link>
-          <Link to="https://www.kingsforms.online/teensvoice-community">Join our Community</Link>
-          {/* <Link herf="/">Sponsorship</Link> */}
+          <Link to="/scholarship">Scholarship</Link>
+          <Link to="https://www.kingsforms.online/teensvoice-community">
+            Join our Community
+          </Link>
         </div>
 
         <div>
@@ -57,14 +59,6 @@ const Footer = () => {
           <Link to="https://wa.me/2348066400348">WhatsApp</Link>
           <Link to="mailto:teensvoiceacademy@gmail.com">Email</Link>
         </div>
-
-        {/* <div>
-          <h4>Help</h4>
-          <Link to="/">Support</Link>
-          <Link to="/">Contact</Link>
-          <Link to="/">Troubleshooting</Link>
-          <Link to="/">All vesions</Link>
-        </div> */}
 
         <div>
           <h4>Policy</h4>
