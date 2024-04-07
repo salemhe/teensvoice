@@ -13,12 +13,44 @@ const Fee = () => {
         voices of young people.
       </p>
 
+      <p>
+        <i>Get admission to study any of the following courses:</i>
+      </p>
+
+      <h4> College of Basic Medical & Health Sciences</h4>
+      <p>
+        🎓 Nursing Science <br />
+        🎓 Medical Laboratory Sciences <br />
+        🎓 Public Health <br />
+        🎓 Physiotherapy
+      </p>
+      <br />
+    
+      <h4> College Management & Social Sciences</h4>
+      <p>
+        🎓 Accounting & Finances <br />
+        🎓 Economics <br />
+        🎓 Business Administration <br />
+        🎓 Entrepreneurship Studies <br />
+        🎓 Criminology & Security Study <br />
+        🎓 Mass Communication{" "}
+      </p>
+      <br />
+
+      <h4> College of Science & Computing</h4>
+      <p>
+        🎓 Software Engineering <br />🎓 Cyber Security <br />🎓 Information Technology <br />🎓
+        Computer Science <br />🎓 Biotechnology <br />🎓 Biochemistry <br />🎓 Physics
+        <br />🎓 Microbiolog
+      </p>
+
+      <br />
+      <br />
       <h4>📍 The scholarship includes the following:</h4>
       <p>
         🎓 Full Tuition <br /> 🎓 Accommodation
-          </p>
-          <br />
-
+      </p>
+      <br />
 
       <h4>📍 Scholarship Requirements:</h4>
       <p>
@@ -30,11 +62,12 @@ const Fee = () => {
         subjects related to the desired course at the senior secondary
         certificate examination (SSCE) or its equivalent. <br /> <br />
         2. In addition, an acceptable pass in the unified tertiary matriculation
-        examination (UTME) is required for admission into 100-level. <br /> <br />
+        examination (UTME) is required for admission into 100-level. <br />{" "}
+        <br />
         3. Minimum Jamb Score of 200 and above is required even if written in
         2023.
-          </p>
-          <br />
+      </p>
+      <br />
 
       <h4>🎓 Direct Entry:</h4>
 
@@ -44,8 +77,8 @@ const Fee = () => {
         the ‘O’ Level requirement. <br />
         If you meet these requirements and you feel this is for you, then find
         below some other vital information for your consideration.
-          </p>
-          <br />
+      </p>
+      <br />
 
       <h4>ORGANIZATION REQUIREMENTS:</h4>
 

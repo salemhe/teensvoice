@@ -15,7 +15,7 @@ export const MenuItems = [
   //   title: "Contact",
   //   url: "/contact",
   //   cName: "nav__links",
-    // icon: "fa-solid fa-address-book",
+  // icon: "fa-solid fa-address-book",
   // },
   {
     title: "Programs",
@@ -28,6 +28,12 @@ export const MenuItems = [
     url: "/volunteer",
     cName: "nav__links",
     icon: "fa-regular fa-address-book",
+  },
+  {
+    title: "Scholarship",
+    url: "/scholarship",
+    cName: "nav__links",
+    icon: "fa-solid fa-user-graduate",
   },
   {
     title: "Register",
