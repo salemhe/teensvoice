@@ -20,7 +20,7 @@ const Programs = () => {
         title="Programs" />
 
       {/* <Launch /> */}
-      {/* <Activity /> */}
+      <Activity />
       <Programsbox  />
       <Footer />
     </div>
