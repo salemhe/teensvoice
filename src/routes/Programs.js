@@ -8,6 +8,7 @@ import Activity from "../components/activity/Activity";
 // imported new component "mainContainer.css" to help resolve page responsiveness issue
 import '../components/mainContainer/mainContainer.css';
 import Launch from "../components/launch/Launch";
+import Second from "../components/second-activity/Second";
 
 
 const Programs = () => {
@@ -20,7 +21,8 @@ const Programs = () => {
         title="Programs" />
 
       {/* <Launch /> */}
-      <Activity />
+      <Activity /> <br />
+      <Second />
       <Programsbox  />
       <Footer />
     </div>

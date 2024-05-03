@@ -29,12 +29,12 @@ export const MenuItems = [
     cName: "nav__links",
     icon: "fa-regular fa-address-book",
   },
-  {
-    title: "Scholarship",
-    url: "/scholarship",
-    cName: "nav__links",
-    icon: "fa-solid fa-user-graduate",
-  },
+  // {
+  //   title: "Scholarship",
+  //   url: "/scholarship",
+  //   cName: "nav__links",
+  //   icon: "fa-solid fa-user-graduate",
+  // },
   {
     title: "Register",
     url: "/signup",
