@@ -1,0 +1,50 @@
+.container-extra {
+    justify-content: center;
+    text-align: left;
+    margin: 2rem;
+    /* background-color: aliceblue; */
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+
+.main-inside {
+    display: flex;
+    gap: 1rem;
+}
+.inside {
+    width: 25%;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: whitesmoke;
+    
+}
+
+.color {
+    color: orange;
+}
+
+
+/* Media query for small screens (e.g., mobile phones) */
+@media (max-width: 767px) {
+    .main-inside {
+        flex-direction: column; /* Change to flex-column */
+    }
+
+    .inside {
+        width: 100%;
+    }
+}
+
+/* Media query for tablet screens */
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-inside {
+        flex-direction: column; /* Change to flex-column */
+    }
+    .inside {
+        width: 100%;
+    }
+}
