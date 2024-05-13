@@ -25,7 +25,7 @@ img {
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width:100%;
+    width:70%;
 }
 
 .hero__text h1 {
@@ -66,9 +66,14 @@ img {
 
 
 @media screen and (max-width: 555px) {
+    .hero__text {
+        width: 90%;
+    }
     .hero__text h1 {
         padding: 10px 20px;
         text-align: center;
+        font-size: 28px;
+        font-weight: 800;
     }
 
     .hero__text p {
