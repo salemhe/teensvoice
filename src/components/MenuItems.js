@@ -40,10 +40,5 @@ export const MenuItems = [
     url: "/signup",
     cName: "nav__links__mobile",
   },
-  // {
-  //   title: "Extraveganza",
-  //   url: "/extraveganza",
-  //   cName: "nav__links",
-  //   icon: "fa-solid fa fa-gift",
-  // }
 ];
+

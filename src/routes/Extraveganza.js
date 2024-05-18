@@ -12,7 +12,7 @@ const Extraveganza = () => {
       <div className=' mainContainer'>
           <Navbar />
           <Hero
-            cName="hero"
+            cName="hero-mid"
             heroImg={HomeImg}
             title="Are you ready to unravel, unleash and unfold your God given talents?"
             btnClass="hide"

@@ -50,6 +50,15 @@ function Acts() {
      setExpanded(newExpanded ? panel : false);
    };
 
+   const handleDownload = (fileName) => {
+    const link = document.createElement('a');
+    link.href = `${process.env.PUBLIC_URL}/files/${fileName}`;
+    link.download = fileName;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div>
       <h1 className='various'>The Various Acts !</h1> <br />
@@ -78,11 +87,9 @@ function Acts() {
             </p>
             <p>3. The spoken poetry must be delivered from memory.</p>
 
-            <h5>
-               <i>
+            <h5> 
                B. The contestants may keep in view the following points while
                delivering their original piece:
-               </i>
             </h5>
 
             <h5>a. Content</h5>
@@ -108,6 +115,25 @@ function Acts() {
                (III) The Audience’s attention and interest must be captured and
                sustained thoroughout the delivery.
             </p>
+            <h5>
+              These are the books to download for your presentation
+            </h5>
+            <div>
+              <ul>
+                <li className='book'>
+                  <span>
+                    1. Recreating your World
+                  </span>
+                  <button onClick={() => handleDownload('Recreating-Your-world.pdf')}>Download PDF</button>
+                </li>
+                <li className='book'>
+                  <span>
+                    2. The power of your mind 
+                  </span>
+                  <button onClick={() => handleDownload('mindpower.pdf')}>Download PDF</button>
+                </li>
+              </ul>
+            </div>
          </div>
           </Typography>
         </AccordionDetails>
@@ -131,8 +157,8 @@ function Acts() {
 
                <h5>A. General Rules</h5>
                <p>
-                  1. Voice overs, sound effects, soundtracks can be added. No songs
-                  outside the provided songs can be added to the mix.
+                  1. Contestants are to express their voice, through dance using the songs provided . 
+                  They are to create a mix of songs, which will be submitted and used for their performance during the program.
                </p>
                <p>2. No vulgar expressions can be used in the mix.</p>
                <p>3. No vulgar dance moves are permitted ( e.g twerking).</p>
@@ -159,7 +185,55 @@ function Acts() {
                   message of the songs.
                </p>
 
-               {/* <h5>These are the songs to download for your presenation</h5> */}
+               <h5>These are the songs to download for your presentation</h5>
+              
+              <div>
+                <ul>
+                  <li className='book'>
+                    <span>
+                      1. Far Away by Loius Pascal
+                    </span>
+                    <button onClick={() => handleDownload('far_away.mp3')}>Download music</button>
+                  </li>
+                  <li className='book'>
+                    <span>
+                      2. Oyoyo by Ur flames
+                    </span>
+                    <button onClick={() => handleDownload('Oyoyo-Ur-Flames.mp3')}>Download music</button>
+                  </li>
+                  <li className='book'>
+                    <span>
+                      3. Voice of the Lord by TB 1
+                    </span>
+                    <button onClick={() => handleDownload('voice.mp3')}>Download music</button>
+                  </li>
+                  <li className='book'>
+                    <span>
+                      4. Idan Baba by Testimony Jaga
+                    </span>
+                    <button onClick={() => handleDownload('Idan Baba by Testimony Jaga.mp3')}>Download music</button>
+                  </li>
+                  <li className='book'>
+                    <span>
+                      5. Turn up by Xano
+                    </span>
+                    <button onClick={() => handleDownload('Xano-Turn-Up.mp3')}>Download music</button>
+                  </li>
+                  <li className='book'>
+                    <span>
+                      6. Chant of Priase by Xano
+                    </span>
+                    <button onClick={() => handleDownload('Xano-Chant-Of-Praise.mp3')}>Download music</button>
+                  </li>
+                  <li className='book'>
+                    <span>
+                      7. Victory Chant by Samsung
+                    </span>
+                    <button onClick={() => handleDownload('Samsong-Victory-Chant.mp3')}>Download music</button>
+                  </li>
+                </ul>
+              </div>
+             
             </div>
           </Typography>
         </AccordionDetails>
@@ -280,15 +354,49 @@ function Acts() {
                presentation on or before May 18th 2024 for the
                First Stage Audition.
                </p>
+
+               
+               <h5>These are the songs to download for your presentation</h5>
+              
+                <div>
+                  <ul>
+                    <li className='book'>
+                      <span>
+                        1. Choji Nos Ft TKE3
+                      </span>
+                      <button onClick={() => handleDownload('choji.mp3')}>Download Music</button>
+                    </li>
+                    <li className='book'>
+                      <span>
+                        2. Bullet proof by Lewis
+                      </span>
+                      <button onClick={() => handleDownload('LEWIS-BULLETPROOF.mp3')}>Download Music</button>
+                    </li>
+                    <li className='book'>
+                      <span>
+                        3. Katalambano by TB 1
+                      </span>
+                      <button onClick={() => handleDownload('Katalambano-TB1.mp3')}>Download Music</button>
+                    </li>
+                    <li className='book'>
+                      <span>
+                        4. God's Number One by Rozey
+                      </span>
+                      <button onClick={() => handleDownload('Gods-Number-One.mp3')}>Download Music</button>
+                    </li>
+                    <li className='book'>
+                      <span>
+                        5. Sweet Holy Spirit by Jahdiel
+                      </span>
+                      <button onClick={() => handleDownload('Jahdiel-Sweet-Holy-Spirit.mp3')}>Download Music</button>
+                    </li>
+                  </ul>
+                </div>
             </div>
           </Typography>
         </AccordionDetails>
       </Accordion>
       <div className="main-inside"> 
-       
-       
-
-       
 
         
       </div>
