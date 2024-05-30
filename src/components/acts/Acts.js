@@ -359,6 +359,60 @@ function Acts() {
                <h5>These are the songs to download for your presentation</h5>
               
                 <div>
+                <h5>Music category</h5>
+                  <ul>
+                    <li className='book'>
+                      <span>
+                        1. Faithful and Just by Maya and Loveworld singers. 
+                      </span>
+                      <button onClick={() => handleDownload('Faithful-and-Just-LoveWorld-Lyrics.mp3')}>Download Music</button>
+                    </li>
+                    <li className='book'>
+                      <span>
+                        2. Dearest Shepherd by Eli-J and Loveworld singers.
+                      </span>
+                      <button onClick={() => handleDownload('Dearest-Shepherd-LoveWorld-Lyrics.mp3')}>Download Music</button>
+                    </li>
+                    <li className='book'>
+                      <span>
+                        3. I'm satisfied in your Love by Pst Ruthney and Loveworld singers. 
+                      </span>
+                      <button onClick={() => handleDownload('I-am-Satisfied-In-Your-Love-Pastor-Ruthney.mp3')}>Download Music</button>
+                    </li>
+                    <li className='book'>
+                      <span>
+                        4. Who but God by Jennifer and Loveworld Singers.
+                      </span>
+                      <button onClick={() => handleDownload('who-but-god-Jennifer-Jude.mp3')}>Download Music</button>
+                    </li>
+                    <li className='book'>
+                      <span>
+                        5. Maker of all things by Sylvia and Loveworld singers. 
+                      </span>
+                      <button onClick={() => handleDownload('maker-of-all-things.mp3')}>Download Music</button>
+                    </li>
+                    <li className='book'>
+                      <span>
+                        6. Magnificent God by Maya and Loveworld singers.  
+                      </span>
+                      <button onClick={() => handleDownload('magnificient-god.mp3')}>Download Music</button>
+                    </li>
+                    <li className='book'>
+                      <span>
+                        7. All for you, My deepest deep meditation by Chookar and Loveworld singers.  
+                      </span>
+                      <button onClick={() => handleDownload('DEEPEST-DEEP-MEDITATION-BY-CHOOKAR.mp3')}>Download Music</button>
+                    </li>
+                    <li className='book'>
+                      <span>
+                        8. Oh Lord, how manifold are your work by Oge and Loveworld singers.
+                      </span>
+                      <button onClick={() => handleDownload('YOU-ARE-THE-LORD-LoveWorld-Lyrics.mp3')}>Download Music</button>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h5>Rap Songs</h5>
                   <ul>
                     <li className='book'>
                       <span>
@@ -378,7 +432,7 @@ function Acts() {
                       </span>
                       <button onClick={() => handleDownload('Katalambano-TB1.mp3')}>Download Music</button>
                     </li>
-                    <li className='book'>
+                    {/* <li className='book'>
                       <span>
                         4. God's Number One by Rozey
                       </span>
@@ -389,7 +443,7 @@ function Acts() {
                         5. Sweet Holy Spirit by Jahdiel
                       </span>
                       <button onClick={() => handleDownload('Jahdiel-Sweet-Holy-Spirit.mp3')}>Download Music</button>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
             </div>
