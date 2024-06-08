@@ -14,7 +14,7 @@ function Prize() {
             <h1> TeensVoice is sure to provide several opportunities for you...</h1>
             <p className='prize_p'>Teensvoice is on a mission to discover the most talented teenager 
                on planet earth, Whether you're a singer, dancer, musician, poet, 
-               comedian, magician, or have a unique talent and you are within 
+               comedian, or have a unique talent and you are within 
                the age bracket of 13 to 20 years, we are here for you.
             </p>
             <h4>
