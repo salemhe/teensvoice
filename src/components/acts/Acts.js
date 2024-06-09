@@ -450,6 +450,54 @@ function Acts() {
           </Typography>
         </AccordionDetails>
       </Accordion>
+      <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
+        <AccordionSummary aria-controls="panel4d-content" id="panel4d-header">
+          <Typography className="inside">
+            <h3>Originality Task</h3>
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            <div className="inside">
+                <div>
+                <h5>Dance Music </h5>
+                  <ul>
+                    <li className='book'>
+                      <span>
+                        Ultimate Price 
+                      </span>
+                      <button onClick={() => handleDownload('ULTIMATE_PRICE_2.mp3')}>Download Music</button>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
+        <AccordionSummary aria-controls="panel4d-content" id="panel4d-header">
+          <Typography className="inside">
+            <h3>Creativity Task</h3>
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            <div className="inside">
+                <div>
+                <h5>Message</h5>
+                  <ul>
+                    <li className='book'>
+                      <span>
+                        Fire For Your Future
+                      </span>
+                      <button onClick={() => handleDownload('Fire-For-Your-Future-Part-1.mp3')}>Download Message</button>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
       <div className="main-inside"> 
 
         
