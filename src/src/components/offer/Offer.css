@@ -1,0 +1,30 @@
+
+
+.container {
+    display: flex;
+    padding: 4rem 6rem;
+    background-color: #222;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    gap: 1rem;
+    padding: 12px;
+}
+
+.box__icons i {
+    font-size: 2.5rem;
+    color: blue;
+}
+
+.box__text {
+    width: 100%;
+    padding: 3px;
+    font-size: 12px;
+    color: white;
+}
+
+.box__text h3 {
+    color: aliceblue;
+}

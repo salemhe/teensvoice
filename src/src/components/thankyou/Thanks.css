@@ -1,0 +1,13 @@
+.thankyou {
+    margin: 50px;
+    text-align: center;
+}
+
+.thankyou h2 {
+    color: orange;
+}
+
+.thankyou p {
+    font-style: italic;
+    color: #222;   
+}

@@ -1,0 +1,75 @@
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+
+.popup-content {
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    background: none;
+    border: 1px solid black;
+    font-size: 15px; 
+    padding: 1px; 
+    width: 20px; 
+    height: 25px; 
+}
+
+
+.popup-content input[type="text"],
+.popup-content input[type="email"],
+.popup-content .subscribe-button {
+    padding: 10px;
+    margin: 5px;
+    width: calc(100% - 22px);
+    border: 1px solid black;
+}
+
+.subscribe-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background-color: lightblue;
+}
+
+/* Media queries for tablet and mobile */
+@media only screen and (max-width: 768px) {
+    .popup {
+        width: 90%; /* Adjust width for tablets */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .popup {
+        width: 95%; /* Adjust width for mobile devices */
+    }
+}
+
+/* Apply overflow: hidden to body when popup is open */
+body.popup-open {
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
