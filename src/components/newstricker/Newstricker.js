@@ -6,10 +6,11 @@ const Newstricker = () => {
     return (
       <div className="news-ticker-container">
         <div className="news-ticker">
-          <p>
-            Welcome To TeensVoice{" "}
+        <p>
+            UPCOMING PROGRAM ALERT{" "}
             <a
-              href="https://www.kingsforms.online/teensvoice-community"
+              href="https://lagos-city-high-school-festival.vercel.app/"
+              // href="https://www.kingsforms.online/teensvoice-community"
               target="_blank"
               rel="noopener noreferrer"
             >

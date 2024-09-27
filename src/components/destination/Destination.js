@@ -21,11 +21,11 @@ const Destination = () => {
             <span className="mission">Our Story</span>
           </h3>
           <br></br>
-          <p>
+          {/* <p>
             Teens Voice was inspired by the Rhapsody of Realities TeeVo, a
             devotional for teenagers authored by the Founder of the Chris
             Oyakhilome Foundation. <br />
-          </p>{" "}
+          </p>{" "} */}
           <br />
           <p>
             Since inception in June 2022 during the inaugural Teens Voice

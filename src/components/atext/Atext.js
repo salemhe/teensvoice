@@ -1,30 +1,22 @@
 import React from "react";
 import "./Atext.css";
 import Page3 from "../../media/comend.jpg";
-import Page6 from "../../media/comend3.jpg";
-import Page5 from "../../media/comend2.jpg";
+import Page6 from "../../media/teensvoiceaward.jpg"; //this is the picture of the award.
+import Page5 from "../../media/comend3.jpg";
 import Page4 from "../../media/crowd.jpg";
 
 const Atext = () => {
   return (
     <div className="aboutus">
       <div className="about__h">
-        <div className="about__text">
+        <div className="about__text"> 
           <h2>Teens Voice and You.</h2>
           <p>
-            Teens Voice stands as our response to the bombardment of young minds
-            by media and secular culture, which often promises fleeting
-            satisfaction in the moment but ultimately leads to emptiness and
-            disillusionment in the long run.
+          Teens Voice is an award-winning organization that helps protect young minds from harmful media and cultural influences. These influences often promise short-term happiness but ultimately lead to feelings of emptiness and disappointment.
           </p>{" "}
           <br />
           <p>
-            This is a community established to amplify their 'unique' voices and
-            facilitate the empowerment and transformation of young individuals.
-            It serves as a safe haven where teenagers can discover their voices
-            amidst the noise of their environment, with the aim of positively
-            influencing their world through the nurturing of their minds with
-            the right resources.
+          This is where teens can find and express their unique voices. We provide safe spaces for self-discovery, empowerment, and growth. Our goal is to inspire young individuals to positively impact their world by equipping them with the right tools and resources.
           </p>
           <br />
         </div>
@@ -39,19 +31,14 @@ const Atext = () => {
           <div className="more__info-text">
             <h2>Our Mission</h2>
             <p>
-              "Our mission is to empower young people to become self-reliant,
-              proactive, and innovative leaders, equipped to address both
-              present challenges and future demands across Africa."
+              "Empower Teens to become, purposeful, proactive leaders of change, equipped to tackle present challenges and future demands across Africa."
             </p>
           </div>{" "}
           <br />
           <div className="more__info-text">
             <h2>Our Vision</h2>
             <p>
-              "Our vision is to play a strategic role in the wholesome
-              development of young people [Teens], offering them mentorship,
-              support, and a platform necessary for fostering positive societal
-              impact."
+              "Nurturing Teens through mentorship and support, empowering them to drive positive societal change through their unique gifting and talents."
             </p>{" "}
             <br />
           </div>{" "}
@@ -61,11 +48,11 @@ const Atext = () => {
           <div className="destination__text">
             <h2>The Hub</h2>
             <p>
-              The Hub is our designated safe meeting space where members engage
-              in various activities and programs. Here, they receive training in
-              vocational skills, soft skills, and leadership development,
-              preparing them for life. Mentors, subject matter experts, and
-              successful professionals facilitate these activities.
+              The Hub, fosters connection and growth through diverse activities and programs. Members acquire essential skills in: <br/>
+                - Vocational training <br/>
+                - Soft skills development <br/>
+                - Leadership empowerment<br/> <br/>
+                Expert mentors, industry specialists, and accomplished professionals lead these sessions, equipping members for lifelong success.
             </p>{" "}
             <br /> <br />
           </div>
@@ -95,7 +82,7 @@ const Atext = () => {
             </p>
             <p>
               {" "}
-              <b>E</b>- Excellence
+              <b>E</b>- Excellence
             </p>
             <br />
           </div>

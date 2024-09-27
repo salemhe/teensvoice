@@ -20,9 +20,10 @@ const Programs = () => {
         heroImg={Programsimg}
         title="Programs" />
 
+
       {/* <Launch /> */}
       <Activity /> <br />
-      <Second />
+      {/* <Second /> */}
       <Programsbox  />
       <Footer />
     </div>
